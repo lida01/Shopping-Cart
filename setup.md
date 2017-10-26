@@ -5,16 +5,16 @@
 <br />
 **Downloads** 
 -----------
-*Server to run the project <br />
+*Server to run the project* <br />
   Apache Tomcat 9.0.1 - http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.1/bin/apache-tomcat-9.0.1.zip <br />
 <br />
-*Java <br />
+*Java* <br />
   jdk 1.8.0_51 - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html <br />
   jre jre 1.8.0_51 - http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html <br />
   You can check this tutorial for installing and setting class path for Java : <br />
   http://www.techieden.com/Java/Video/install-jdk-and-jre_video.html <br />
 <br />
-*Eclispe Mars - http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-win32-x86_64.zip <br />
+*Eclispe Mars* - http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-win32-x86_64.zip <br />
 <br />
 There are two ways to run your project :  <br />
 <br />
@@ -33,13 +33,13 @@ There are two ways to run your project :  <br />
 <br />
     Add the following three variables and values : <br />
 <br />
-    JAVA_HOME <br />
+    *JAVA_HOME* <br />
     C:\Program Files\Java\jdk1.8.0_51\bin <br />
 <br />
-    JRE_HOME  <br />
+    *JRE_HOME*  <br />
     C:\Program Files\Java\jre1.8.0_131 <br />
 <br />
-    CATALINA_HOME  <br />
+    *CATALINA_HOME*  <br />
     Your apache extract folder\apache-tomcat-9.0.1 <br />
 <br />
     And there will be a path variable. Add this line. <br />
