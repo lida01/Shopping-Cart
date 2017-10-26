@@ -14,14 +14,14 @@
   You can check this tutorial for installing and setting class path for Java : <br />
   http://www.techieden.com/Java/Video/install-jdk-and-jre_video.html <br />
 <br />
-* Eclispe Mars - http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-win32-x86_64.zip <br />
+*Eclispe Mars - http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-win32-x86_64.zip <br />
 <br />
 There are two ways to run your project :  <br />
 <br />
 1. Eclipse (The simpler way first, duh !) <br />
 <br />
   i. Download Eclipse from the link given. <br />
-  ii. Import the file https://github.com/satyaki1992/Shopping-Cart/tree/master/Shopping  <br />
+  ii. Import the folder Shopping  <br />
   iii. Setup the server after downloading from the link given. <br />
   iv. Run the project. The browser will fire up. <br />
  <br />
@@ -51,9 +51,13 @@ There are two ways to run your project :  <br />
   But if you have a Oracle 9, you can just create a user with credentials: <br />
   username - satyaki <br />
   password - qwerty <br />
+  iii. We need to create a war(Web ARchive) file of the project. Open command prompt. Go inside the project directory of the project (outside the WEB-INF), then write the following command: <br />
+  jar -cvf Shopping.war * <br />
+  iv. Deploy the war file in apache tomcat server by going go to the webapps directory of apache tomcat and paste the war file here.
 <br />
-Fire up the CMD. Type startup.bat And Hit Enter. <br />
+  v. Type startup.bat in CMD And Hit Enter. <br />
 <br />
 Open http://localhost:8080/Shopping/ in your browser. <br />
 <br />
 Let me know if any issues.
+Cheers !
