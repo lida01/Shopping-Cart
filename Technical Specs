@@ -1,0 +1,24 @@
+The technology used is Java J2EE.
+
+The design pattern used is MVC (Model - View - Controller)
+
+Model - POJO (your plain old Java classes)
+View - jsp and CSS 
+Controller - Servlets
+
+Frontend languages
+1. Html and Jsp for page outlet 
+2. CSS for styling
+3. Javascript and Jquery for validation in Front End
+
+Backend technologies
+1. Servlets 
+2. POJO classes
+
+So your front end that is rendered on screen is done by the View. When you make a request for anything from the page,<br /> 
+your request will be received by the Model (Servlet Container) and will be redirected accordingly. This is called a Servlet request. <br />
+The Servlet attends to your request and sends a result back to you, which is called a Servlet Response. <br />
+<br />
+Servlet can fetch your request in one of the two ways, namely GET and POST. These are called Http methods. <br>
+<br />
+There is a database used in the backend. It is accessed using an ORM framework called Hibernate.
